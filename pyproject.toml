@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "survival-regimes"
+version = "0.1.0"
+description = ""
+authors = ["Marcel Zanetti <marcel.mzc@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pandas = "^1.4.2"
+scikit-learn = ">=1.1.0"
+lifelines = "^0.27.0"
+matplotlib = "^3.5.2"
+pandas-profiling = "^3.2.0"
+ipykernel = "^6.13.0"
+openpyxl = "^3.0.10"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
