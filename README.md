@@ -68,6 +68,6 @@ We use a Cox model to predict survival hazard. Basically, a Cox model is a linea
 
 We test several models (methodology and more details are described [here](https://github.com/marcelzanetti/survival-regimes/blob/main/survival_regimes/Modelling.ipynb) and come up with a model that has the following features (and respectives estimates):
 
-![estimates_coef](https://user-images.githubusercontent.com/71240129/172072651-78100c90-4cf5-409b-a129-847f42790051.png)
+![estimates_coef](https://user-images.githubusercontent.com/71240129/172072847-d411f518-ada2-464e-b310-a16ac71df3aa.png)
 
 The *exp_coef* tells us how much the hazard increase when that covariates increases and all else is kept constant. For dummy variables, it's the increase in hazard when that feature appears in the dataset. For example, *pond_crisis_currency* (the weighted average of the times there was currency crisis in that term) has a (exp) coefficient of 5, which means that an increase in one in *pond_crisis_currency* will increase 5 times the hazard ratio. *regime_democracy* has a coefficient of 1.3; so a democratic term has a hazard of ending 30% greather than a non-democratic one.
